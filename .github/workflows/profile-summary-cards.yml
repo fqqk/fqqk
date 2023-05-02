@@ -17,3 +17,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.FQQK_PAT }}
         with:
           USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: "master"
